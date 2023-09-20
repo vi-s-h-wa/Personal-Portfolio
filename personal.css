@@ -312,6 +312,7 @@ h4{
 footer{
     margin-top: 12rem;
     display: flex;
+    justify-content: end;
 }
 .dots{
     margin-left: 19rem;
