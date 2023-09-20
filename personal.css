@@ -10,6 +10,8 @@
 .back{
     position: absolute;
     background-color: #000;
+    
+
 }
 html{
     width: 100%;
@@ -19,8 +21,8 @@ html{
 body{
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
     animation: fadein 300ms;
+
 }
 .circle {
     border-radius: 50%;
@@ -80,7 +82,7 @@ body{
     background-color: rgb(255, 57, 57);
     width: 200px;
     height: 300px;
-    transform: translate(70rem,180rem);
+    transform: translate(65rem,175rem);
     z-index: -2;
 }
 @keyframes dance1{
@@ -183,6 +185,7 @@ body{
     position: relative;
     backdrop-filter: blur(100px);
     animation: fadein 200ms;
+    overflow-x: hidden;
 }
 
 header{
@@ -413,30 +416,118 @@ a{
         max-width: 600px;
         margin: 0 ;
     }
-  }
-
-  @media (max-width: 620px){
-    .circle{
-        display: none;
-    }
-    .dots{
-        margin-left: 4.5rem;
-        font-size: 1rem;
-        letter-spacing: 1.5rem;
-        margin-bottom: 5rem;
-        line-height: 3.5rem;
-    }
-    .hl2{
-        margin-left: 4%;
-        width: 100%;
-    }
-    .slideshow-container {
-        margin-right: 2rem;
-    }
-    .project{
-        margin-left: 5.5%;
-    }
-    .front{
-        width: 30rem;
+    @media (max-width: 620px){
+        #scrollicon{
+            height: 55%;
+            width: 95%;
+        }
+        .head{
+            margin-top: 0.5rem;
+            padding: 8px 15px;
+        }
+        h1{
+            margin-top: 5rem;
+            font-size: 35px;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+        }
+        .details{
+            font-size: 15px;
+            margin-left: 1rem;
+            margin-bottom: 2rem;
+        }
+        .project{
+            margin: 0rem 1rem;
+        }
+        .hl1{
+            margin-top: 30.5%;
+            margin-bottom: 31%;
+        }
+        h2{
+            margin-top: 2rem;
+            font-size: 25px;
+            width: 40%;
+            border-right: none;
+        }
+        h3{
+            display: none;
+        }
+        h4{
+            padding: 25px 5px;
+            width: 100%;
+        }
+        .slide img {
+            width: 15rem;
+            height: 7rem;
+        }
+        .slide{
+            width: 15rem;
+            height: 7rem;
+        }
+        .slideshow-container {
+            margin-left: 2.5rem;
+        }
+        .dots{
+            display: none;
+        }
+        #detailss{
+            width: 15rem;
+            margin: 2rem;
+        }
+        h5{
+            font-size: 200%;
+            padding-bottom: 3%;
+            text-align: end;
+        }
+        a{
+            font-size: 0.8rem;
+        }
+        footer{
+            margin-top: 20%;
+        }
+        .back :nth-child(1){
+            width: 300px;
+            height: 300px;
+        }
+        .back :nth-child(2){
+            width: 300px;
+            height: 300px;
+        }
+        .back :nth-child(3){
+            width: 300px;
+            height: 300px;
+        }
+        .back :nth-child(4){
+            width: 700px;
+            height: 700px;
+        }
+        .back :nth-child(8){
+            background-color: rgb(255, 0, 0);
+            transform: translate(10rem,160rem);
+        }
+        @keyframes dance5{
+            0%{
+                transform: translate(0rem,80rem);
+            }
+            50%{
+                transform: translate(6rem,140rem);
+            }
+            100%{
+                transform: translate(0rem,80rem);
+            }
+            
+        }
+        @keyframes dance6{
+            0%{
+                transform: translate(6rem,130rem);
+            }
+            50%{
+                transform: translate(0rem,70rem);
+            }
+            100%{
+                transform: translate(6rem,130rem);
+            }
+            
+        }
     }
   }
