@@ -503,7 +503,7 @@ a{
         }
         .back :nth-child(8){
             background-color: rgb(255, 0, 0);
-            transform: translate(10rem,160rem);
+            transform: translate(10rem,150rem);
         }
         @keyframes dance5{
             0%{
